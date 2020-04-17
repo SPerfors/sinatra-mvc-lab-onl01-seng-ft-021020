@@ -1,4 +1,4 @@
-class PigLatinizer
+class PigLatinize
   
      attr_accessor :user_text
 
