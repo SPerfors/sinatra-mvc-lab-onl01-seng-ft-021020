@@ -4,7 +4,7 @@ class PigLatinizer
 
     def piglatinize(user_text)
         @user_text = user_text
-        piglatinize_text(@user_text.split(" "))
+        piglatinize_text(@user_text.downcase.split(" "))
     end
 
     def piglatinize_word(word)
